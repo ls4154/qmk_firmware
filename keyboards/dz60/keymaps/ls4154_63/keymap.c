@@ -20,7 +20,7 @@
  *
  * Layer 1
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
- * │   │F1 │F2 │F3 │F4 │F5 │F6 │F7 │F8 │F9 │F11│F12│ = │ \ │DEL│
+ * │   │F1 │F2 │F3 │F4 │F5 │F6 │F7 │F8 │F9 │F10│F11│F12│   │DEL│
  * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───┤
  * │     │LTG│LMD│LHU│LHD│LSI│LSD│   │PSC│SLK│PSE│UP │   │DEL  │
  * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┤
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_CAPS, KC_LGUI, KC_LALT, KC_SPC,  KC_RALT, KC_RGUI, KC_APP,  KC_RCTL
 	),
 	LAYOUT_60_ansi_split_bs_rshift(
-		KC_TRNS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_TRNS, KC_DEL,
+		KC_TRNS, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_INS,  KC_DEL,
 		KC_TRNS, RGB_TOG, RGB_MOD, RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, KC_TRNS, KC_PSCR, KC_SLCK, KC_PAUS, KC_UP,   KC_TRNS, RESET,
 		KC_TRNS, KC_VOLD, KC_VOLU, KC_MUTE, KC_TRNS, RGB_VAI, RGB_VAD, KC_TRNS, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, BL_DEC,  BL_TOGG, BL_INC,  BL_STEP, KC_TRNS, KC_END,  KC_PGDN, KC_DOWN, KC_TRNS, KC_TRNS,
